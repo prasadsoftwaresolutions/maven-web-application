@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Prasad Technologies Releases Nexus Repository</name>
-	      <url>http://34.227.98.68:8081/repository/pss-releases/</url>
+	      <url>http://52.91.32.50:8081/repository/pss-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Prasad Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.227.98.68:8081/repository/pss-snapshots/</url>
+	      <url>http://52.91.32.50:8081/repository/pss-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
