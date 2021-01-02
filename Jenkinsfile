@@ -27,7 +27,7 @@ stage('DeployAppIntoTomcatServer')
 {
  sshagent(['f0b2bd04-a968-498a-b5dd-c8a914651f20']) 
 {
- sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@54.204.200.13:/opt/tomcat9/webapps/"
+ sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@54.211.35.239:/opt/tomcat9/webapps/"
 }
 }
 stage('SendEmailNotification')
